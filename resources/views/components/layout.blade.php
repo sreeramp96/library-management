@@ -18,7 +18,9 @@
         <a href="#about">BOOKS</a>
         <a href="#about">REPORTS</a>
     </div>
-    {{-- {{ $slot }} --}}
+    <main>
+        @yield('book')
+    </main>
 </body>
 
 </html>
